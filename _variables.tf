@@ -22,3 +22,10 @@ variable "public_subnets" {
   type        = list(string)
   default     = []
 }
+variable "cluster_version" {
+  type = string
+}
+
+variable "cluster_endpoint_public_access" {
+  type = bool
+}
